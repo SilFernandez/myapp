@@ -1,0 +1,33 @@
+/* Producto.css */
+h1{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: #337ab7; /* Color de fondo del banner */
+    color: #fff; 
+}
+
+.producto {
+    border: 1px solid #30aafc;
+    padding: 20px;
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+    background-color: #32aee7;
+}
+  
+.producto h1, h2 {
+    color: blanchedalmond;
+    margin-top: 0;
+    font-size: 24px;
+}
+  
+.producto p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+  
+.producto strong {
+    font-weight: bold;
+    margin-right: 5px;
+}

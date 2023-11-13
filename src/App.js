@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+//app que llama a componente Contador
+import React from 'react';
 
-function App() {
+//vinculo con el componente
+import Producto from './components/Producto';
+
+// constante
+
+const ProductoPagina = () => {
+  const productData = {
+    nombre: 'Nombre del producto',
+    descripcion: 'Descripción del producto',
+    precio: 10,
+    sku: 'SKU123',
+    availableQuantity: 50,
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Página del Producto</h1>
+      <Producto
+        nombre={productData.nombre}
+        descripcion={productData.descripcion}
+        precio={productData.precio}
+        sku={productData.sku}
+        availableQuantity={productData.availableQuantity}
+      />
     </div>
   );
 }
 
-export default App;
+export default ProductoPagina;
+
+
