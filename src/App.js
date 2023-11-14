@@ -1,4 +1,4 @@
-//app que llama a componente Contador
+//app que llama a componente
 import React from 'react';
 
 //vinculo con el componente
