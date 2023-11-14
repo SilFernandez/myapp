@@ -1,7 +1,7 @@
-//app que llama a componente
+//app que llama a componente 
 import React from 'react';
 
-//vinculo con el componente
+//vinculo con el componente Producto.js
 import Producto from './components/Producto';
 
 // constante
@@ -17,7 +17,7 @@ const ProductoPagina = () => {
 
   return (
     <div>
-      <h1>Página del Producto</h1>
+      <h1>PÁGINA DEL PRODUCTO</h1>
       <Producto
         nombre={productData.nombre}
         descripcion={productData.descripcion}
